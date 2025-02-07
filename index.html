@@ -3,48 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <script defer src="scripts/script.js"></script>
+    <title>JayveePanol-TA1- Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="resume-container">
-        <button id="colorButton">Change Color</button>
-        <div class="resume-content">
-            <header>
-                <h1>John Doe</h1>
-                <p>Web Developer | Designer | Programmer</p>
-            </header>
-            <section class="about">
-                <h2>About Me</h2>
-                <p>Passionate web developer with experience in HTML, CSS, and JavaScript.</p>
-            </section>
-            <section class="experience">
-                <h2>Work Experience</h2>
-                <ul>
-                    <li>Frontend Developer at ABC Corp (2022-Present)</li>
-                    <li>Intern at XYZ Ltd. (2021-2022)</li>
-                </ul>
-            </section>
-            <section class="education">
-                <h2>Education</h2>
-                <p>Bachelor's in Computer Science - ABC University</p>
-            </section>
-            <section class="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>React, Node.js</li>
-                    <li>UI/UX Design</li>
-                </ul>
-            </section>
+    <div class="resume">
+        <div class="header">
+            <img align="right" src="Image.jpg" alt="Profile Picture" class="profile-pic">  
+            <h1>Jayvee Panol</h1>
+            <h2>Webdesigner</h2>
         </div>
+
+        <button id="colorButton">Change Color</button>
+
+        <div class="two-columns">  <div class="left-column">
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p>Phone: 0612345678</p>
+                    <p>Website: jayvee.pnl</p>
+                    <p>Email: 202312472@gmail.com</p>
+                </div>
+
+                <div class="section">
+                    <h2>Education</h2>
+                    <div class="entry">
+                        <h3>FEU TECH</h3>
+                        <p>2023-2028</p>
+                        <p>BSIT-WMA</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="entry">
+                        <h3>JPNHS</h3>
+                        <p>2017-2023</p>
+                        <p>GAS</p>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Photoshop - Lorens ipsum dolor sit amet.</li>
+                        <li>HTML/CSS - Lorens ipsum dolor sit amet.</li>
+                        <li>PHP - Lorens ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+            </div>  <div class="right-column">  <div class="section">
+                    <h2>Experience</h2>
+                    <div class="entry">
+                        <h3>Fingertips</h3>
+                        <p>2009</p>
+                        <p>Webdesigner</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="entry">
+                        <h3>Jaypnl</h3>
+                        <p>2005-current</p>
+                        <p>Designer</p>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                    </div>
+                </div>
+            </div>  </div>  <div class="footer">
+        </div>
+
     </div>
-    <script>
-        document.getElementById("colorButton").addEventListener("click", function() {
-            let content = document.querySelector(".resume-content");
-            content.style.backgroundColor = content.style.backgroundColor === "grey" ? "white" : "grey";
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
